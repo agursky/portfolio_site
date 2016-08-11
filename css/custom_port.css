@@ -1,0 +1,597 @@
+/**********GENERAL************************************************************/
+
+@media {
+   
+    * {
+    transition: 0.4s;
+    }
+
+    body {
+        position: relative;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+/*        min-width: 400px;*/
+    /*    color: #3e3e3e;*/
+
+    }
+
+    #content {
+/*        margin-top: 125px;*/
+        padding: 0;
+        border: none;
+    }
+
+    
+/*
+    #content > div {
+        border-top: 1px solid gainsboro;
+        padding: 48px 0;
+    }
+*/
+    
+    .container-fluid {
+/*        border-top: 1px solid gainsboro;*/
+        
+    }
+    
+    .row {
+        padding: 60px 0 40px;
+    }
+
+    h1, h2 {
+        padding-bottom: 6px;
+/*        margin: 24px 15px;*/
+        margin-bottom: 36px;
+/*        color: #2b2b2b;*/
+    }
+    
+    .row h3 {
+        color: #525252;
+/*        font-family: 'Aclonica', sans-serif;*/
+        font-size: 28px;
+        font-weight: bolder;
+        letter-spacing: 0;
+        margin-bottom: 36px;
+        
+        
+    }
+    
+    [class*='col-'] {
+        padding: 0;
+    }
+    
+    #bio h5, #skills h5 {
+        
+        margin: 24px auto;
+        
+    }
+    
+    #bio p, #skills p {
+        margin: 36px auto;
+        max-width: 400px;
+        line-height: 2;
+    }
+    
+    
+    
+    .item-wrapper {
+        margin: 24px auto;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .img-thumbnail {
+        padding: 0;
+        border: 8px solid white;
+    }
+    
+    table {
+        
+        box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.5);
+        
+    }
+    
+}
+
+/**********NAVBAR************************************************************/
+
+@media {
+ 
+    .navbar {
+        background-color: #b3dcff;
+        height: 72px;
+        padding-top: 19px;
+        box-shadow: 0 0 6px 1px rgba(0,0,0,0.4);
+    }
+    
+    .navbar-nav .nav-item+.nav-item {
+        margin-left: 2rem;
+    }
+    
+    
+
+    .navbar-nav .nav-link {
+        color: #4a6f90;
+    }
+    
+    .navbar-toggler {
+/*        padding: 12px 8px !important;*/
+    }
+    
+    .navbar-brand {
+        color: white;
+        padding: 0px 56px 20px 30px;
+        background-color: #ff5722;
+        border-right: 8px solid white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        font-size: 60px;
+        line-height: 65px;
+        font-weight: bold;
+/*        font-family: 'Poiret One', cursive;*/
+/*        font-family: 'Abril Fatface', cursive;*/
+        font-family: 'Lobster', cursive;
+    }
+    
+    a:hover, a:focus {
+        color: white;
+    }
+    
+    #my-navbar-sm {
+        margin-top: 70px;
+        box-shadow: 0 6px 12px -2px rgba(0,0,0,0.4);
+    }
+    
+    #my-navbar-sm li.nav-item {
+        float: none;
+    }
+    
+    #my-navbar-sm .navbar-nav .nav-item
+    {
+        margin: 0;
+        padding: 18px;
+        border-bottom: 1px solid #dadada;
+        background-color: white;
+    }
+
+    
+}
+
+/**********BIO************************************************************/
+
+@media {
+    
+    #bio {
+        background-color: #d0ebff;
+    }
+    
+    #bio h1, #bio h2 {
+        margin-left: 0;
+        border: none;
+    }
+    
+    #bio .item-wrapper {
+        margin-bottom: 0;
+    }
+    
+    #bio h3 {
+        padding-top: 60px;
+/*        color: #f3faff;*/
+    }
+    
+    
+    
+    
+    
+}
+
+/**********SKILLS************************************************************/
+
+@media { 
+    
+    #skills { 
+        background-color: #fff8ba;
+    }
+    
+
+
+    tr:nth-of-type(1) {
+/*        background-color: #FF5722;*/
+/*        background-color: #ffbba6;*/
+        background-color: #c4e49f;
+        
+    }
+    
+    tr:nth-of-type(2) {
+/*        background-color: #ff9800;*/
+        background-color: #ffd79d;
+    }
+    
+    tr:nth-of-type(3) {
+        background-color: #ece7b4;
+/*        background-color: #ffeb3b;*/
+    }
+    
+    tr:nth-of-type(4) {
+/*        background-color: #cddc39;*/
+        background-color: #e8efa6;
+    }
+    
+    tr:nth-of-type(5) {
+/*        background-color: #8bc34a;*/
+        background-color: #c4e49f;
+    }
+    
+    tr:nth-of-type(6) {
+/*        background-color: #4caf50;*/
+        background-color: #a3d8a5;
+    }
+    
+    tr:nth-of-type(7) {
+/*        background-color: #00bcd4;*/
+        background-color: #7ed281;
+    }
+    
+    tr:nth-of-type(8) {
+/*        background-color: #00bcd4;*/
+        background-color: #ece7b4;
+    }
+    
+    tr:nth-of-type(9) {
+/*        background-color: #00bcd4;*/
+        background-color: #f7b776;
+    }
+    
+    td:nth-child(2) {
+        text-align: center;
+        max-width: 36px;
+    }
+/*
+    
+    .table {
+        border: none;
+    }
+*/
+    
+    .table td {
+/*        border: 1px solid rgba(0, 0, 0, 0.1);*/
+/*        box-shadow: 0 0 8px -2px black;*/
+        border: none;
+    }
+    
+    .table-bordered tr {
+        box-shadow: 0 0 8px -2px black;
+    }
+    
+    .table-bordered td:nth-of-type(1) {
+        border-left: none;
+    }
+    
+    .table-bordered td:nth-of-type(2) {
+        border-right: none;
+    }
+    
+    td {
+        font-size: 12px
+    }
+    
+}
+
+/**********WORK************************************************************/
+
+@media {
+    
+/*
+    #personal-projects {
+        background-color: #fff8ba;
+    }
+*/
+    
+    #work {
+        background-color: #e8efa6;
+    }
+    
+    .card-block p:first-of-type {
+        font-size: 14px;
+    }
+    
+}
+
+/**********CARDS************************************************************/
+
+@media {
+    
+    .card {
+        background-color: aliceblue !important;
+    /*    border-color: #dadada;*/
+        padding: 10px;
+/*        border: 1px solid #e2f2ff;*/
+/*        border-bottom: 1px solid #c9dcec;*/
+        border: none;
+/*        margin-bottom: 0;*/
+        border-radius: 0;
+
+    }
+
+    .card img {
+
+    /*    border: 1px solid #c9dcec;*/
+        border-bottom: 1px solid #c9dcec;
+        opacity: 1;
+
+    }
+
+    .card-wrapper:hover .card img {
+/*        opacity: 1;*/
+    }
+
+    .card-wrapper .card-block {
+        color: #2b2b2b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f7f7f7;
+        opacity: 0;
+        text-align: center;
+        padding-top: 11%;
+
+    }
+
+    .card-wrapper:hover .card-block {
+        opacity: 1;
+    }
+
+    .card-wrapper:hover .card {
+    /*    border-color: #d04519;*/
+    }
+
+
+    .card-block hr {
+        margin: 10px auto;
+    }
+    
+    #bbco-proj hr {
+        margin: 6px auto;
+    }
+
+    .card-title {
+        color: #FF5722;
+        margin-bottom: 1rem;
+        font-size: 22px;
+    }
+    
+    .small-text {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 6%;
+    }
+    
+    .small-text small {
+        color: #ff9800;
+        font-weight: bold;
+        letter-spacing: 2.6px;
+    }
+    
+    #bbco-proj .card-block > p.card-text {
+        margin-bottom: 4px;
+    }
+    
+    #bbco-proj hr {
+        margin: 6px auto;
+    }
+    
+}
+
+/**********INDIVIDUAL*CARDS************************************************************/
+
+
+/**********CONTACT*ME************************************************************/
+
+@media {
+    #contact {
+/*
+        border: 1px solid gainsboro;
+        border-bottom: 1px solid darkgrey;
+*/
+        text-align: center;
+/*        padding: 48px;*/
+/*        width: 80%;*/
+        background-color: #c4e49f;
+        margin: 0 auto;
+        
+    }
+    
+    #contact h3, #contact h5 {
+        margin-bottom: 24px;
+    }
+    
+    #contact h5 {
+        color: #5bc0de;
+    }
+    
+    #contact p {
+        max-width: 500px;
+        color: dimgrey;
+    }
+    
+    #contact i {
+        margin: 12px 16px;
+/*        border: 1px solid #925a5a;*/
+        padding: 12px;
+        width: 58px;
+        border-radius: 50%;
+        color: white;
+        background-color: #dcc4c4;
+    }
+    
+    #contact a:nth-of-type(1) i {
+        background-color: #f44336;
+    }
+    
+    #contact a:nth-of-type(2) i {
+        background-color: #03A9F4;
+/*        border-color: #5d788c;*/
+    }
+    
+    #contact a:nth-of-type(3) i {
+        background-color: #8BC34A;
+/*        border-color: #5d788c;*/
+    }
+    
+    #contact a:nth-of-type(4) i {
+        background-color: #009688;
+/*        border-color: #5d788c;*/
+    }
+}
+
+
+
+
+@media (min-width: 544px) and (max-width: 767px) {
+    
+    .card-block hr, #bbco-proj .card-block hr {
+        margin: 36px auto;
+    }
+    
+    [class*='col-'] hr {
+        width: 70%;
+    }
+    
+    [class*='col-'] h5 {
+        margin: 36px auto;
+    }
+    
+    #bio .img-thumbnail {
+        max-width: 420px;
+    }
+    
+
+}
+
+
+/**********SMALL&UP************************************************************/
+
+
+@media (min-width: 544px) {
+    
+    .card {
+        margin-bottom: 12px;
+    }
+    
+    [class*='col-'] {
+        padding: 0 6px;
+    }
+    
+    #contact {
+        padding-bottom: 100px;
+    }
+    
+    .row {
+        padding: 100px 0;
+    }
+    
+/*
+    #work p {
+        font-size: 14px;
+    }
+*/
+    
+}
+
+/**********MEDIUM&UP************************************************************/
+
+
+@media (min-width: 768px) {
+    
+    .img-thumbnail {
+/*        max-height: 380px;*/
+    }
+    
+    .item-wrapper {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    #bio h5 {
+        margin: 0 auto 16px;
+    }
+    
+    #bio p, #skills p {
+        margin: 16px 0;
+    }
+    
+    #bbco-proj .card-block hr {
+        margin: 10px auto;
+    }
+    
+/*
+    .card-wrapper .card-block {
+        padding: 11%;
+    }
+*/
+    
+    
+}
+
+/**********LARGE&UP************************************************************/
+
+@media (min-width: 992px) {
+    
+    
+    
+    td {
+        font-size: 14px
+    }
+    
+    ul.nav.navbar-nav.pull-sm-right.container {
+        margin-right: 120px;
+    }
+    
+    #bio h5, #skills h5 {
+        
+        margin: 48px auto 36px;
+        
+    }
+    
+    #bio p, #skills p {
+        margin: 24px auto;
+    }
+    
+}
+
+/**********EXTRA*LARGE&UP************************************************************/
+
+
+@media (min-width: 1200px) {
+    
+    .card-wrapper .card-block {
+        padding-top: 16%;
+    }
+    
+    .card-block hr {
+        margin: 24px auto;
+    }
+    
+    .container {
+        max-width: 940px;
+    }
+    
+    #bbco-proj .card-title {
+        font-size: 20px;
+    }
+    
+
+    
+    
+    
+    
+    
+}
+
