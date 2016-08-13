@@ -441,12 +441,12 @@
     }
     
     #contact a:nth-of-type(3) i {
-        background-color: #8BC34A;
+        background-color: #009688;
 /*        border-color: #5d788c;*/
     }
     
     #contact a:nth-of-type(4) i {
-        background-color: #009688;
+        background-color: #8BC34A;
 /*        border-color: #5d788c;*/
     }
 }
