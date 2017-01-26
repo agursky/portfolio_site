@@ -11,8 +11,8 @@ $(document).ready(function(){
     
     if(isMobile) {
         
-//        var eTop = $('#bbco-proj').offset().top;
-//          console.log(eTop - $(window).scrollTop());
+        $('#bbco-proj').css('display', 'none');
+        
         var current;
         
         var scrollOp = function(el) {
@@ -25,8 +25,11 @@ $(document).ready(function(){
               }
           }
             
+        $(window).scroll(function() {
+              scrollOp('#pixel-proj .card-block')
+          });    
             
-          $(window).scroll(function() {
+        $(window).scroll(function() {
               scrollOp('#bbco-proj .card-block')
           });
         
