@@ -1,0 +1,116 @@
+
+
+.nav-link, .card, small {
+   transition: 0.4s; 
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+/*    color: #3e3e3e;*/
+    
+}
+
+.navbar {
+    background-color: #a8ebff;
+}
+
+
+.navbar-nav .nav-link {
+    color: #444444;
+}
+#content {
+    margin-top: 125px;
+}
+
+.row {
+    margin-top: 75px;
+}
+
+#client-work {
+    margin-top: 40px;
+}
+
+h1, h2 {
+    margin: 24px 15px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 6px;
+}
+
+#bio h1, #bio h2 {
+    margin-left: 0;
+    border: none;
+}
+
+.card {
+    background-color: rgba(232, 232, 232, 0.9);
+    border-color: #dadada;
+}
+
+/*
+.card-wrapper:hover .card-block{
+    color: white;
+}
+*/
+
+.card-wrapper .card-block{
+    color: white;
+}
+
+.card-wrapper small {
+    color: #d0d0d0;
+}
+
+/*
+#quiz-proj {
+    background-image: url('../img/quiz.png');
+}
+
+.card-block {
+    background-color: rgba(232, 232, 232, 0.9);
+    border-color: #dadada;
+    opacity: 0;
+}
+*/
+
+/*
+#personal-projects .card-wrapper:nth-of-type(1):hover .card {
+    background-color: #f44336;
+
+}
+
+#personal-projects .card-wrapper:nth-of-type(2):hover .card {
+    background-color: #00bcd4;
+
+}
+
+#client-work .card-wrapper:nth-of-type(1):hover .card {
+    background-color: #8bc34a;
+
+}
+*/
+
+#personal-projects .card-wrapper:nth-of-type(1) .card {
+    background-color: #f44336;
+
+}
+
+#personal-projects .card-wrapper:nth-of-type(2) .card {
+    background-color: #00b7f1;
+
+}
+
+#client-work .card-wrapper:nth-of-type(1) .card {
+    background-color: #27da5f;
+
+}
+
+@media (min-width: 768px) {
+    
+    .img-thumbnail {
+        max-height: 380px;
+    }
+    
+}

@@ -18,19 +18,19 @@ $(document).ready(function(){
         var scrollOp = function(el) {
 
             current = $(el).offset().top  - $(window).scrollTop();
-              if(current < 333 && current > 20) {
+              if(current < 200 && current > 20) {
                   $(el).css('opacity', 1);
-              } else if(current > 333 || current < 20) {
+              } else if(current >= 200 || current <= 20) {
                   $(el).css('opacity', 0);
               }
           }
             
         $(window).scroll(function() {
-              scrollOp('#pixel-proj .card-block')
+              scrollOp('#portal-proj .card-block')
           });    
             
         $(window).scroll(function() {
-              scrollOp('#bbco-proj .card-block')
+              scrollOp('#pixel-proj .card-block')
           });
         
         $(window).scroll(function() {
@@ -39,10 +39,7 @@ $(document).ready(function(){
         
         $(window).scroll(function() {
               scrollOp('#quiz-proj .card-block')
-          });
-        
-        $('#bbco-proj .card-title').css('margin-bottom', '0.4rem');
-        
+          });        
         
     }
     
