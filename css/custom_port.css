@@ -393,6 +393,10 @@
         margin: 36px auto;
     }
     
+    .card-wrapper {
+        padding: 12px;
+    }
+    
     [class*='col-'] hr {
         width: 70%;
     }

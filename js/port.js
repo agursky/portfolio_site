@@ -39,8 +39,15 @@ $(document).ready(function(){
         
         $(window).scroll(function() {
               scrollOp('#quiz-proj .card-block')
-          });        
+          });   
         
+        $(window).scroll(function() {
+              scrollOp('#fanschool-proj .card-block')
+          }); 
+        
+        $(window).scroll(function() {
+              scrollOp('#unwander-proj .card-block')
+          }); 
     }
     
     $('#my-navbar-sm .nav-link').on('click', function() {
